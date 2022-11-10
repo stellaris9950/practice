@@ -11,10 +11,10 @@ function count(){
     let countNo = 0;
     let countMaybe = 0;
     for ( let i = 0; i < results.length; i++ ) {
-        if(results[i] = "yes" ){
+        if(results[i] === "yes" ){
           countYes++;
         }
-        else if(results[i] = "no" ){
+        else if(results[i] === "no" ){
             countNo++;
           }
         else {
@@ -45,4 +45,21 @@ function ageCount(){
     alert(age18);
 }
 
-\
+
+let price = [18,19,20,21,10,11,12,13]
+
+function priceCount(){
+    let under20 = 0;
+    let under50 = 0;
+    let higer = 0;
+    for ( let i = 0; i < age.length; i++ ) {
+        if(age[i] < 18 ){
+          age0++;
+        }
+        else {
+            age18++
+        }
+    }
+    alert(age0);
+    alert(age18);
+}
